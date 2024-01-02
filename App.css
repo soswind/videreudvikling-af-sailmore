@@ -1,0 +1,369 @@
+body {
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.infobanner {
+  background-color: #6cc3c3;
+  color: white;
+  text-align: center;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #fefefe;
+  margin: 0;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Archivo Narrow", sans-serif, Arial, Helvetica, sans-serif;
+  color: #585858;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+p {
+  font-family: "Open Sans", sans-serif, Arial, Helvetica, sans-serif;
+  padding: 0.5rem;
+}
+
+.left {
+  display: flex;
+  gap: 20px;
+}
+
+.left a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* Navbar menu design */
+
+.login-button a {
+  display: flex;
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px 10px;
+  color: #2d5d89 !important;
+
+  &:hover {
+    background-color: #585858;
+    color: #fff;
+  }
+}
+
+/* Footer design */
+.footer-container {
+  background-color: #6cc3c3;
+  height: 274px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Archivo Narrow", sans-serif, Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+.footer-container h3 {
+  color: #2d5d89;
+}
+
+.footer-container ul {
+  list-style: none;
+  margin: 10px;
+}
+.footer-container ul li {
+  color: #ffffff;
+}
+.footer-text {
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.footer-container a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer-container a:hover {
+  color: #f88c51;
+}
+
+.footer-img {
+  width: 172px;
+  margin-left: 200px;
+}
+
+.footer-bottom {
+  color: #8c8f94;
+  text-align: center;
+  font-family: "Archivo Narrow", sans-serif, Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 1170px) {
+  .footer-container {
+    flex-direction: column;
+    height: 400px;
+  }
+  .footer-img {
+    margin: 30px auto;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .footer-container {
+    height: 500px;
+  }
+  .footer-text {
+    flex-direction: column;
+    text-align: left;
+    width: 350px;
+  }
+  .footer-img {
+    width: 130px;
+    margin-left: 0px;
+  }
+}
+
+/* Landingpage section with image & paragraph text */
+
+/*  Find Gaster side */
+
+.find-gast-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  margin: auto 0;
+  align-items: center;
+  object-position: 50% 35%;
+}
+
+.h1-on-find-gast {
+  position: absolute;
+  right: 20%;
+  left: 5%;
+  bottom: 55%;
+  font-size: 2.5rem;
+}
+
+.p-on-find-gast {
+  display: flex;
+  justify-content: center;
+  text-align: center; /* Centrer tekst i forhold til container */
+  font-size: 1rem;
+  padding: 1rem;
+  width: auto;
+}
+
+.profiles-container .outer-profile {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 20px;
+  gap: 20px;
+}
+
+.profile {
+  box-sizing: border-box;
+  width: 100%; /* Juster bredden efter behov, minus margin */
+  border: 2px solid #2d5d89;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  background-color: #f3f3f3;
+}
+
+.profile h2 {
+  margin-bottom: 8px;
+  color: #2d5d89;
+  font-family: "Archivo Narrow", sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+.profile p {
+  margin-bottom: 4px;
+  color: black;
+  font-family: "Open Sans", sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: bold; /* Tilføjet denne linje for fed skrift */
+}
+
+@media screen and (max-width: 767px) {
+  .profiles-container .outer-profile {
+    grid-template-columns: 1fr; /* Stack profilerne på mindre skærme */
+    margin: 16px 15px;
+  }
+}
+
+/* Chat section */
+
+/* ChatMessage.css */
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.message-input {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.input-container {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.message-input {
+  flex-grow: 1;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.send-button {
+  background-color: #2d5d89;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #585858;
+  }
+}
+
+/* ChatMessage styles */
+
+.chat-message {
+  max-width: 100%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-message {
+  align-self: flex-start;
+  background-color: #efefef;
+  color: #2d5c88;
+  font-weight: bold;
+}
+
+.bot-message {
+  align-self: flex-end;
+  background-color: #5a7791;
+  color: #fff;
+  font-weight: bold;
+}
+
+.message-sender {
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
+.message-text {
+  font-size: 1rem;
+}
+
+/* Responsive layout for smaller screens */
+@media screen and (max-width: 767px) {
+  .chat-message {
+    padding: 8px;
+  }
+
+  .user-message,
+  .bot-message {
+    align-self: auto;
+  }
+
+  .user-message:nth-child(even),
+  .bot-message:nth-child(even) {
+    align-self: flex-end;
+  }
+}
+
+.tabone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  max-width: 7rem;
+  max-height: 1.5rem;
+  font-family: "Archivo Narrow", sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.tabtwo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  max-width: 7rem;
+  max-height: 1.5rem;
+  font-family: "Archivo Narrow", sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.tabs label {
+  order: initial;
+  display: block;
+  padding: 1rem 2rem;
+  margin-right: 0.2rem;
+  cursor: pointer;
+  background: #fff;
+  transition: background ease 0.2s;
+}
+
+.tabs .tab {
+  order: 99;
+  flex-grow: 1;
+  width: 100%;
+  display: none;
+  padding: 1rem;
+  background: #fff;
+}
+
+.tabs input[type="radio"] {
+  display: none;
+}
+
+.tabs input[type="radio"]:checked + label {
+  background: #f3f3f3;
+  border: 1px solid #2d5d89;
+}
+
+.tabs input[type="radio"]:checked + label + .tab {
+  display: block;
+}
+
+@media (max-width: 45em) {
+  .tabs .tab,
+  .tabs label {
+    order: absolute;
+  }
+
+  .tabs label {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.2rem;
+  }
+}

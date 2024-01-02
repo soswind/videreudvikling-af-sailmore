@@ -1,0 +1,13 @@
+@import url("App.css");
+@import url("./components/styles/header.css");
+@import url("./components/styles/splashscreen.css");
+@import url("./components/styles/seafares.css");
+@import url("./components/styles/forms.css");
+@import url("./components/styles/info.css");
+@import url("./components/styles/dashboard.css");
+@import url("./components/styles/GastProfile.css");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
