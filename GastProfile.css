@@ -1,0 +1,234 @@
+/*----- Gast Name -----*/
+.gastProfile{
+    width: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.gastProfileHeader{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.gastName{
+    font-size: 25px;
+    margin: 0;
+    padding: 10px;
+    color: #2D5D89;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.profileType{
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+    color: #707070;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.gastRating{
+    color: #2D5D89;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.ratingStars{
+    max-width: 170px;
+    height: 30px;
+    margin: 0 auto;
+}
+.seeReviews{
+    color: #F88C51;
+    position: relative;
+    text-transform: uppercase;
+    justify-content: flex-end;
+    margin: 0px 0 10px 10px;
+}
+.seeReviews:hover{
+    color: #6CC3C3;
+}
+
+.gast-img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 1px solid #707070;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.gastProfileText{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    overflow: hidden;
+    margin-right: 90px;
+}
+
+.gastAge, .gastArea{
+    color: #2D5D89;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.gastAge2, .gastArea2{
+    color: #707070;
+}
+
+
+/*----- BUTTONS -----*/
+.gastProfileButton{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.sendChat{
+    width: 290px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #FEFEFE;
+    text-transform: uppercase;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    background-color: #2D5D89;
+}
+.requestNo{
+    width: 290px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #FEFEFE;
+    text-transform: uppercase;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    background-color: #6CC3C3;
+}
+/*----- ABOUT ME -----*/
+.gastAboutMe{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 170px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #EFEFEF;
+    overflow: hidden;
+}
+
+.gastAboutMe h2{
+    font-size: 20px;
+    width: 350px;
+    margin: 0 auto;
+    justify-content: left;
+    color: #2D5D89;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.gastAboutMe p{
+    font-size: 18px;
+    color: #707070;
+    width: 350px;
+    margin: 0 auto;
+}
+
+/*----- SKILLS -----*/
+.gastSkills{                
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.gastSkills h2{
+    font-size: 20px;
+    max-width: 350px;
+    margin: 0 auto;
+    justify-content: left;
+    color:#2D5D89;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.gastSkillsText{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.kategorie2, .kategorie3, .kategorie6{
+    background-color: #2D5D89;
+    color: #FEFEFE;
+    width: 140px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.kategorie1, .kategorie4, .kategorie5{
+    background-color: #6CC3C3;
+    color: #FEFEFE;
+    width: 140px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/*----- GAST REVIEWS -----*/
+
+.gastReviews{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: #5A7791;
+    width: 100vw;
+    padding: 10px;
+    overflow: hidden;
+}
+.gastReviews h2{
+    width: 340px;
+    margin: 0 auto;
+    justify-content: left;
+    font-size: 20px;
+    color: #FEFEFE;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.gastReviewsText{
+    width: 340px;
+    margin: 0 auto;
+}
+.name{
+    color: #6CC3C3;
+    font-style: italic;
+}
+.seeAll{
+    float: right;
+    padding: 10px;
+    font-size: 18px;
+    color: #6CC3C3;
+    text-transform: uppercase;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+}
+.seeAll:hover{
+    color: #F88C51;
+}

@@ -1,0 +1,88 @@
+.read-the-docs {
+    color: #888;
+    
+  }
+  .accordion {
+    background-color: #eee;
+    border: 2px solid #2d5d89;
+    border-width: 2px;
+    color: #2d5d89;
+    padding: 30px;
+    margin: auto 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    outline: none;
+    transition: 0.4s;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    max-width: 400px;
+
+  }
+  .active,
+  .accordion:hover {
+    background-color: #fff;
+    color: #2d5d89;
+    font-size: 1.2rem;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    max-width: 400px;
+
+  }
+  .accordion_panel {
+    padding: 18px 18px;
+    padding-bottom: 18px;
+    border-radius: 15px;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    margin: auto 2rem;
+
+  }
+
+  .accordion::after {
+    content: "\02795";
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  .active {
+    display: block;
+    
+  }
+  .accordion.active::after {
+    content: "\2796";
+    
+  }
+
+  .accordion_panel ul {
+    list-style-image: url("./anchor.png");
+}
+
+
+  .info-h1 {
+    display: flex;
+    justify-content: left;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    color: #585858;
+    font-size: 2rem;
+    padding: 2rem;
+  }
+
+  .info-h2 {
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    color: #585858;
+    font-size: 1.5rem;
+    padding: 2rem;
+  }
+
+  .info-p {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica, sans-serif;
+    padding: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    max-width: 700px;
+  }
