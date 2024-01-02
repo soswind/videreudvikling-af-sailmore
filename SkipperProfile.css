@@ -1,0 +1,170 @@
+/*----- PROFILE -----*/
+.skipperprofile{
+    width: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.skipperProfileHeader{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.skipperName{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 0;
+    color: #2D5D89;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.profileType-skipper{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 0;
+    color: #707070;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.skipperProfileText{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-right: 70px;
+    overflow: hidden;
+}
+.skipperAge, .skipperExperience, .skipperArea{
+    color: #2D5D89;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.skipperAgeYear, .skipperExperienceYears, .skipperAreaName{
+    color: #707070;
+}
+
+.skipper-img{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 1px solid #707070;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+/*----- BUTTONS -----*/
+.skipperProfileButton{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.sendChat{
+    width: 290px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #FEFEFE;
+    text-transform: uppercase;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    background-color: #2D5D89;
+}
+.requestNo{
+    width: 290px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #FEFEFE;
+    text-transform: uppercase;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    background-color: #6CC3C3;
+}
+/*----- SEA FAIRIES COMPLETED-----*/
+
+.skipperCompleted{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 130px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #EFEFEF;
+    overflow: hidden;
+}
+.skipperCompleted h2{
+    color: #2D5D89;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 340px;
+    margin: 0 auto;
+    justify-content: left;
+
+}
+.skipperCompleted p{
+    color: #6CC3C3;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 340px;
+    margin: 0 auto;
+    justify-content: left;
+}
+/*----- SEA FAIRIES PLANNED-----*/
+
+.skipperPlanned{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.skipperPlanned h2{
+    color: #2D5D89;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 340px;
+    margin: 0 auto;
+    justify-content: left;
+    padding: 10px;
+}
+.skipperPlannedText{
+    width: 340px;
+    margin: 0 auto;
+}
+
+.planned1{
+    background-color: #6CC3C3;
+    width: 300px;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.planned2{
+    background-color: #2D5D89;
+    width: 300px;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.skipperSeeMore{
+    float: right;
+    padding: 10px;
+    font-size: 18px;
+    color:#F88C51;
+    font-family: 'Archivo Narrow', sans-serif, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.skipperSeeMore:hover{
+    color:#2D5D89;
+    text-decoration: underline;
+}
